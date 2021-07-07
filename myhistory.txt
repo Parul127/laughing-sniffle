@@ -1,0 +1,274 @@
+Microsoft Windows [Version 10.0.17763.1339]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>cd~
+'cd~' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>cd git-Parul-test
+
+C:\Users\Administrator\git-Parul-test>cd laughing-sniffles
+The system cannot find the path specified.
+
+C:\Users\Administrator\git-Parul-test>cd laughing-niffle
+The system cannot find the path specified.
+
+C:\Users\Administrator\git-Parul-test>git remote get-url origin
+fatal: No such remote 'origin'
+
+C:\Users\Administrator\git-Parul-test>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Python test.py
+        laughing-sniffle/
+        myprog.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Administrator\git-Parul-test>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator\git-Parul-test
+
+07/07/2021  16:38    <DIR>          .
+07/07/2021  16:38    <DIR>          ..
+07/07/2021  13:35               113 datatype.py
+07/07/2021  13:46               220 exerciseboolean.py
+07/07/2021  15:19               269 exerciseconditionals.py
+07/07/2021  15:51               157 exerciseconditionals2.py
+07/07/2021  14:39               400 exerciselists.py
+07/07/2021  16:39               160 exerciseloops.py
+07/07/2021  13:40               244 exercisesdatatype.py
+07/07/2021  11:05    <DIR>          laughing-sniffle
+07/07/2021  11:28                37 myprog.py
+07/07/2021  11:18               213 Python test.py
+06/07/2021  16:37                11 test.txt
+06/07/2021  16:56                28 test2.txt
+              11 File(s)          1,852 bytes
+               3 Dir(s)  197,722,075,136 bytes free
+
+C:\Users\Administrator\git-Parul-test>cd ..
+
+C:\Users\Administrator>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator
+
+07/07/2021  10:58    <DIR>          .
+07/07/2021  10:58    <DIR>          ..
+07/07/2021  13:06             3,191 .bash_history
+01/12/2020  14:59    <DIR>          .dotnet
+06/07/2021  15:22                50 .gitconfig
+07/07/2021  10:58    <DIR>          .idlerc
+06/07/2021  16:53               835 .viminfo
+04/08/2020  13:15    <DIR>          3D Objects
+04/08/2020  13:15    <DIR>          Contacts
+04/08/2020  13:15    <DIR>          Desktop
+04/08/2020  13:15    <DIR>          Documents
+07/07/2021  10:55    <DIR>          Downloads
+04/08/2020  13:15    <DIR>          Favorites
+30/06/2021  17:24    <DIR>          gameshopdb
+06/07/2021  15:47    <DIR>          git-branching
+07/07/2021  16:38    <DIR>          git-Parul-test
+04/08/2020  13:15    <DIR>          Links
+04/08/2020  13:15    <DIR>          Music
+04/08/2020  13:15    <DIR>          Pictures
+04/08/2020  13:15    <DIR>          Saved Games
+04/08/2020  13:15    <DIR>          Searches
+04/08/2020  13:15    <DIR>          Videos
+               3 File(s)          4,076 bytes
+              19 Dir(s)  197,721,927,680 bytes free
+
+C:\Users\Administrator>cd git-Parul-test
+
+C:\Users\Administrator\git-Parul-test>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator\git-Parul-test
+
+07/07/2021  16:38    <DIR>          .
+07/07/2021  16:38    <DIR>          ..
+07/07/2021  13:35               113 datatype.py
+07/07/2021  13:46               220 exerciseboolean.py
+07/07/2021  15:19               269 exerciseconditionals.py
+07/07/2021  15:51               157 exerciseconditionals2.py
+07/07/2021  14:39               400 exerciselists.py
+07/07/2021  16:39               160 exerciseloops.py
+07/07/2021  13:40               244 exercisesdatatype.py
+07/07/2021  11:05    <DIR>          laughing-sniffle
+07/07/2021  11:28                37 myprog.py
+07/07/2021  11:18               213 Python test.py
+06/07/2021  16:37                11 test.txt
+06/07/2021  16:56                28 test2.txt
+              11 File(s)          1,852 bytes
+               3 Dir(s)  197,721,927,680 bytes free
+
+C:\Users\Administrator\git-Parul-test>copy *.py laughing-sniffle
+datatype.py
+exerciseboolean.py
+exerciseconditionals.py
+exerciseconditionals2.py
+exerciselists.py
+exerciseloops.py
+exercisesdatatype.py
+myprog.py
+Python test.py
+        9 file(s) copied.
+
+C:\Users\Administrator\git-Parul-test>cd laughing-sniffle
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator\git-Parul-test\laughing-sniffle
+
+07/07/2021  17:08    <DIR>          .
+07/07/2021  17:08    <DIR>          ..
+07/07/2021  13:35               113 datatype.py
+07/07/2021  13:46               220 exerciseboolean.py
+07/07/2021  15:19               269 exerciseconditionals.py
+07/07/2021  15:51               157 exerciseconditionals2.py
+07/07/2021  14:39               400 exerciselists.py
+07/07/2021  16:39               160 exerciseloops.py
+07/07/2021  13:40               244 exercisesdatatype.py
+07/07/2021  11:28                37 myprog.py
+07/07/2021  11:06                31 Prog1.txt
+07/07/2021  11:18               213 Python test.py
+07/07/2021  09:44                61 README.md
+              11 File(s)          1,905 bytes
+               2 Dir(s)  197,721,600,000 bytes free
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Prog1.txt
+        Python test.py
+        datatype.py
+        exerciseboolean.py
+        exerciseconditionals.py
+        exerciseconditionals2.py
+        exerciselists.py
+        exerciseloops.py
+        exercisesdatatype.py
+        myprog.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>git add .
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Prog1.txt
+        new file:   Python test.py
+        new file:   datatype.py
+        new file:   exerciseboolean.py
+        new file:   exerciseconditionals.py
+        new file:   exerciseconditionals2.py
+        new file:   exerciselists.py
+        new file:   exerciseloops.py
+        new file:   exercisesdatatype.py
+        new file:   myprog.py
+
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>git commit -m "Changes made to files"
+[main b36409a] Changes made to files
+ 10 files changed, 77 insertions(+)
+ create mode 100644 Prog1.txt
+ create mode 100644 Python test.py
+ create mode 100644 datatype.py
+ create mode 100644 exerciseboolean.py
+ create mode 100644 exerciseconditionals.py
+ create mode 100644 exerciseconditionals2.py
+ create mode 100644 exerciselists.py
+ create mode 100644 exerciseloops.py
+ create mode 100644 exercisesdatatype.py
+ create mode 100644 myprog.py
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.71 KiB | 1.71 MiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Parul127/laughing-sniffle.git
+   d637b46..b36409a  main -> main
+
+C:\Users\Administrator\git-Parul-test\laughing-sniffle>cd ..
+
+C:\Users\Administrator\git-Parul-test>move laughing-sniffle ..
+        1 dir(s) moved.
+
+C:\Users\Administrator\git-Parul-test>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator\git-Parul-test
+
+07/07/2021  17:12    <DIR>          .
+07/07/2021  17:12    <DIR>          ..
+07/07/2021  13:35               113 datatype.py
+07/07/2021  13:46               220 exerciseboolean.py
+07/07/2021  15:19               269 exerciseconditionals.py
+07/07/2021  15:51               157 exerciseconditionals2.py
+07/07/2021  14:39               400 exerciselists.py
+07/07/2021  16:39               160 exerciseloops.py
+07/07/2021  13:40               244 exercisesdatatype.py
+07/07/2021  11:28                37 myprog.py
+07/07/2021  11:18               213 Python test.py
+06/07/2021  16:37                11 test.txt
+06/07/2021  16:56                28 test2.txt
+              11 File(s)          1,852 bytes
+               2 Dir(s)  197,721,370,624 bytes free
+
+C:\Users\Administrator\git-Parul-test>cd ..
+
+C:\Users\Administrator>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F6C8-A54B
+
+ Directory of C:\Users\Administrator
+
+07/07/2021  17:12    <DIR>          .
+07/07/2021  17:12    <DIR>          ..
+07/07/2021  13:06             3,191 .bash_history
+01/12/2020  14:59    <DIR>          .dotnet
+06/07/2021  15:22                50 .gitconfig
+07/07/2021  10:58    <DIR>          .idlerc
+06/07/2021  16:53               835 .viminfo
+04/08/2020  13:15    <DIR>          3D Objects
+04/08/2020  13:15    <DIR>          Contacts
+04/08/2020  13:15    <DIR>          Desktop
+04/08/2020  13:15    <DIR>          Documents
+07/07/2021  10:55    <DIR>          Downloads
+04/08/2020  13:15    <DIR>          Favorites
+30/06/2021  17:24    <DIR>          gameshopdb
+06/07/2021  15:47    <DIR>          git-branching
+07/07/2021  17:12    <DIR>          git-Parul-test
+07/07/2021  17:08    <DIR>          laughing-sniffle
+04/08/2020  13:15    <DIR>          Links
+04/08/2020  13:15    <DIR>          Music
+04/08/2020  13:15    <DIR>          Pictures
+04/08/2020  13:15    <DIR>          Saved Games
+04/08/2020  13:15    <DIR>          Searches
+04/08/2020  13:15    <DIR>          Videos
+               3 File(s)          4,076 bytes
+              20 Dir(s)  197,721,370,624 bytes free
+
+C:\Users\Administrator>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>
